@@ -29,7 +29,7 @@ body {
     max-width: 350px;
     max-height: 460px;
     border-radius: 25px;
-    display: none;
+    display: block;
    }
 img {
     position: relative;
@@ -183,3 +183,19 @@ i {
     display: block;
  
 }
+
+#colo:focus-within button {
+    color: black;
+    background-color: rgb(146, 166, 209);  
+}
+#colo:focus-within #photo {
+    color: black;
+    background-color: rgb(182, 197, 231);
+}
+#colo:focus-within img {
+    color: black;
+    background-color: rgb(161, 143, 172);
+    border: 2px solid rgb(146, 166, 209);border-radius: 100px;
+
+}
+
